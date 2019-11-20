@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+
+body, div, table { color: #000000; font: 16px "Source Sans Pro", sans-serif; font-weight: 400; }
+
+#todo-container {
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+}
+
+.container {
+    margin: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 5px;
+}
+
+#mydiv, #mydiv2, #mydiv3 {
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    width: 200px;
+    cursor: move;
+}
+
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+#container1 {
+    height: 500px;
+    width: 200px;
+    float: left;
+}
+
+#container2 {
+    height: 500px;
+    width: 200px;
+    float: left;
+}  
+
+#container3 {
+    height: 500px;
+    width: 200px;
+    float: left;
+}  
