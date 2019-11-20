@@ -72,6 +72,15 @@ function dragElement(elmnt) {
     myDiv.style.position = "initial";
     myDiv2.style.position = "initial";
     myDiv3.style.position = "initial";
+
+    myDiv.style.left = myDiv.offsetLeft + "px";
+    myDiv2.style.left = myDiv2.offsetLeft + "px";
+    myDiv3.style.left = myDiv3.offsetLeft + "px";
+
+    myDiv.style.top = myDiv.offsetTop + "px";
+    myDiv2.style.top = myDiv2.offsetTop + "px";
+    myDiv3.style.top = myDiv3.offsetTop + "px";
+
     document.onmouseup = null;
     document.onmousemove = null;
   }
